@@ -1,66 +1,57 @@
-## Foundry
+# 🚀 Foundry Fund Me
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+This is an example project of a kickstarter contract, built with [Foundry](https://book.getfoundry.sh/) and [Foundry-zksync](https://github.com/matter-labs/foundry-zksync).
 
-Foundry consists of:
+## 🛠️ Usage
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
-
-## Documentation
-
-https://book.getfoundry.sh/
-
-## Usage
-
-### Build
-
+### 🔨 Build
+Use the Makefile commands **(📝 note: Make sure you have GNU Make installed and add the necessary environment variables in a `.env` file)**, or alternatively foundry commands:
 ```shell
 $ forge build
 ```
 
-### Test
+### 🧪 Test
 
 ```shell
 $ forge test
 ```
 
-### Format
+### 🎨 Format
 
 ```shell
 $ forge fmt
 ```
 
-### Gas Snapshots
+### ⛽ Gas Snapshots
 
 ```shell
 $ forge snapshot
 ```
 
-### Anvil
+### 🔧 Anvil
 
 ```shell
 $ anvil
 ```
 
-### Deploy
+### 🚀 Deploy
 
 ```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
+$ forge script script/DeployFundMe.s.sol --rpc-url <your_rpc_url> --private-key <your_private_key>
 ```
+> ⚠️ ***Warning: Using your private key on a chain associated with real money must be avoided!***
 
-### Cast
+### 🛠️ Cast
 
 ```shell
 $ cast <subcommand>
 ```
 
-### Help
+### ❓ Help
 
 ```shell
 $ forge --help
 $ anvil --help
 $ cast --help
 ```
+
