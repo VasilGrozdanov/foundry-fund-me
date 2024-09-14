@@ -1,6 +1,6 @@
 # 🚀 Foundry Fund Me
 
-This is an example project of a kickstarter contract, built with [Foundry](https://book.getfoundry.sh/) and [Foundry-zksync](https://github.com/matter-labs/foundry-zksync).
+This is an example project of a kickstarter contract, built with [Foundry](https://book.getfoundry.sh/) and [Foundry-zksync](https://github.com/matter-labs/foundry-zksync). Special thanks to [Cyfrin Updraft](https://updraft.cyfrin.io).
 
 ## 🛠️ Usage
 
@@ -39,7 +39,7 @@ $ anvil
 ```shell
 $ forge script script/DeployFundMe.s.sol --rpc-url <your_rpc_url> --private-key <your_private_key>
 ```
-> ⚠️ ***Warning: Using your private key on a chain associated with real money must be avoided!***
+> ⚠️ **Warning: Using your private key on a chain associated with real money must be avoided!**
 
 ### 🛠️ Cast
 
